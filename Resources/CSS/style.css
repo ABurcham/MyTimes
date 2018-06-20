@@ -3,15 +3,30 @@ header{
   font-size: 14px;
   font-weight:bold;
   display:flex;
+  position:fixed;
+  z-index:2;
+  border-bottom:1px solid black;
+  width:100%;
+  height:80px;
+  align-items:center;
 }
 .logo{
-  font-color: MediumAquamarine;
+  color: MediumAquamarine;
   display:inline-flex;
+  align-items:center;
+  flex-grow:1;
+  padding-left:30px;
 }
-nav {
-
+.logo img{
+  margin-right:12px;
+}
+nav{
+  justify-content:flex-end;
+  padding-right:40px;
 }
 
 nav li{
  display:inline-block;
+ padding:20px 10px;
+ text-decoration:underline;
 }
